@@ -1,0 +1,16 @@
+There are four assumptions associated with a linear regression model:
+
+Linearity: The relationship between X and the mean of Y is linear.
+Homoscedasticity: The variance of residual is the same for any value of X.
+Independence: Observations are independent of each other.
+Normality: For any fixed value of X, Y is normally distributed.
+
+
+Assumptions of linear regression
+● The dependent variable must be numeric
+● Linear relationship between dependent and independent variables
+● Predictors must not show multicollinearity
+● Independence of observations should exist (Absence of Autocorrelation)
+● The error terms should be homoscedastic
+● The error terms must follow normal distribution
+

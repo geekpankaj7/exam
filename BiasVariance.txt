@@ -1,0 +1,6 @@
+Bias is the simplifying assumptions made by the model to make the target function easier to approximate. Variance is the amount that the estimate of the target function will change given different training data.
+
+What is the relation between bias and variance?
+Image result for difference between bias and variance
+Bias and variance are inversely connected. It is impossible to have an ML model with a low bias and a low variance. When a data engineer modifies the ML algorithm to better fit a given data set, it will lead to low bias—but it will increase variance
+

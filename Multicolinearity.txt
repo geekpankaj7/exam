@@ -1,0 +1,14 @@
+What is multicollinearity?
+● Multicollinearity arises when the independent variables have high correlation among each other
+● Multicollinearity may be introduced if there exists empirical relationship among variables such as income = expenditure + saving
+● In presence of it, the best fit line obtained from OLS method is no more “best”
+● Also, the confidence interval obtained for β’s is wider since the SE(β) becomes large
+Proprietary content. © Great Learning. All Rights Reserved. Unauthorized use or distribution prohibited.
+ Multicollinearity detection
+● Determinant of correlation matrix
+● Condition Number (CN)
+● Correlation matrix
+● Variance Inflation Number (VIF)
+Is there multicollinearity present?
+  Proprietary content. © Great Learning. All Rights Reserved. Unauthorized use or distribution prohibited.
+Which variables are involved in multicollinearity?

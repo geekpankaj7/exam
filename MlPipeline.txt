@@ -1,0 +1,14 @@
+What is an ML pipeline?
+One definition of an ML pipeline is a means of automating the machine learning workflow by enabling data to be transformed and correlated into a model that can then be analyzed to achieve outputs. This type of ML pipeline makes the process of inputting data into the ML model fully automated. 
+
+Another type of ML pipeline is the art of splitting up your machine learning workflows into independent, reusable, modular parts that can then be pipelined together to create models. This type of ML pipeline makes building models more efficient and simplified, cutting out redundant work.
+
+This goes hand-in-hand with the recent push for microservices architectures, branching off the main idea that by splitting your application into basic and siloed parts you can build more powerful software over time. Operating systems like Linux and Unix are also founded on this principle. Basic functions like ‘grep’ and ‘cat’ can create impressive functions when they are pipelined together. 
+
+With the ML pipeline, each part of your workflow is abstracted into an independent service. Then, each time you design a new workflow, you can pick and choose which elements you need and use them where you need them, while any changes made to that service will be made on a higher level.
+
+A pipelining architecture solves the problems that arise at scale:
+
+Volume: only call parts of the workflow when you need them, and cache or store results that you plan on reusing.
+Variety: when you expand your model portfolio, you can use pieces of the beginning stages of the workflow by simply pipelining them into the new models without replicating them.
+Versioning: when services are stored in a central location and pipelined together into various models, there is only one copy of each piece to update. All instances of that code will update when you update the original.
